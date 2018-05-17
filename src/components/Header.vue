@@ -5,7 +5,7 @@
       <span v-if="showBack" class="arrow"></span>
       <span v-if="showBack" @click="goBack" class="return">返回</span>
       <img v-if="showHot" src="static/imgs/hot.png">
-      <img class="add" v-if="showAdd" src="static/imgs/add.png">
+      <img class="add" v-if="showAdd" src="static/imgs/add.png" @click="addTopic">
     </div>
   </div>
 </template>
@@ -34,6 +34,9 @@ export default {
   methods: {
     goBack () {
       window.history.go(-1)
+    },
+    addTopic() {
+      this.$router.push({path: '/add_topic'})
     }
   }
 }

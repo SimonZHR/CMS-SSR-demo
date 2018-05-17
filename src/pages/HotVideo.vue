@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vheader title="热门视频" :showBack="showBack"></vheader>
+    <vheader title="热门视频" :showBack="true"></vheader>
     <img src="static/imgs/video-banner.jpg" class="banner">
     <div class="lives">
       <live class="live-item" src="static/imgs/liver.png" title="发动机密封胶的正确使用流程及装配1345" num="初级会员 · 153人在线" liver="主讲人：潘德金"></live>
@@ -22,7 +22,7 @@ export default {
   },
   data () {
     return {
-      showBack: true
+      //showBack: true
     }
   },
   methods: {

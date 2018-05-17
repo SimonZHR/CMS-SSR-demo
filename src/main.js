@@ -4,7 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import vheader from './components/Header.vue'
+
 Vue.config.productionTip = false
+
+Vue.component('vheader', vheader)
 
 /* eslint-disable no-new */
 new Vue({

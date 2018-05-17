@@ -1,6 +1,6 @@
 <template>
   <div>
-    <vheader title="热门话题" :showBack="showBack" :showHot="showHot" :showAdd="showAdd"></vheader>
+    <vheader title="热门话题" :showBack="true" :showHot="true" :showAdd="true"></vheader>
     <div class="hotTopicItem">
 <!--     	<a href="/discuss_detail"> -->
       <div @click="toHotTopicDetail">
@@ -24,9 +24,9 @@ export default {
   },
   data() {
     return {
-      showBack: true,
-      showHot: true,
-      showAdd: true
+      //showBack: true,
+      //showHot: true,
+      //showAdd: true
     }
   },
   methods: {

@@ -29,7 +29,7 @@ export default {
       required: true
     },
     watched: {
-      type: String,
+      type: Number,
       default: 0
     }
   },

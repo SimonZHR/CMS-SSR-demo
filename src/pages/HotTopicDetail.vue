@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <vheader :showBack="showBack"></vheader>
+    <vheader :showBack="true"></vheader>
     <div class="type">
       [车身维修]
     </div>
@@ -29,7 +29,7 @@ export default {
   },
   data () {
     return {
-      showBack: true
+      //showBack: true
     }
   },
   methods: {

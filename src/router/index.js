@@ -5,6 +5,7 @@ import HotTopic from '@/pages/HotTopic'
 import HotTopicDetail from '@/pages/HotTopicDetail'
 import HotVideo from '@/pages/HotVideo'
 import HotVideoDetail from '@/pages/HotVideoDetail'
+import AddTopic from '@/pages/AddTopic'
 
 Vue.use(Router)
 
@@ -35,5 +36,10 @@ export default new Router({
       name: 'HotVideoDetail',
       component: HotVideoDetail
     },
+    {
+      path: '/add_topic',
+      name: 'AddTopic',
+      component: AddTopic
+    }
   ]
 })
